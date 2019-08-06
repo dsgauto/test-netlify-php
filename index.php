@@ -1,12 +1,16 @@
-<html>
+<?php
+date_default_timezone_set ("PST8PDT");
+?>
 
-<head>
-  <title>Your Title Here</title>
-</head>
-
-<body>
-  <div>hello moto</div>
-  <?php echo('sheep'); ?>
-</body>
-
-</html>
+<form name="contact" action="index.html" netlify>
+  <p>
+    <label>Your Name:</label>
+    <input type="text" name="name">
+  </p>
+  <p>
+    <label>Your Email</label>
+    <input type="email" name="email">
+  </p>
+  <p>
+    <button>Send</button>
+  </p>
