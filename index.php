@@ -1,5 +1,7 @@
-<?php
+!<!DOCTYPE html>
+<html>
 
-echo('hello dsg peeps');
-
- ?>
+<body>
+  hello
+</body>
+</html>
